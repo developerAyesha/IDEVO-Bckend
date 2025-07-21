@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const kanbanController = require('../controllers/kanbanController');
+const kanbanController = require('../handlers/kanbanController');
 
 router.get('/', kanbanController.getAllColumns);
 router.post('/', kanbanController.createColumn);

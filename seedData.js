@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-const Task = require('./models/Task');
-const TeamMember = require('./models/TeamMember');
-const KanbanColumn = require('./models/KanbanColumn');
+const Task = require('./schemas/Task');
+const TeamMember = require('./schemas/TeamMember');
+const KanbanColumn = require('./schemas/KanbanColumn');
 
 // Connect to MongoDB
 mongoose.connect('mongodb://localhost:27017/task_management')

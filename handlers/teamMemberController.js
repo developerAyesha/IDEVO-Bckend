@@ -1,4 +1,4 @@
-const TeamMember = require('../models/TeamMember');
+const TeamMember = require('../schemas/TeamMember');
 
 exports.getAllTeamMembers = async (req, res) => {
   try {

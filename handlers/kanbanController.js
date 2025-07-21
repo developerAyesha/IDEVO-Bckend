@@ -1,4 +1,4 @@
-const KanbanColumn = require('../models/KanbanColumn');
+const KanbanColumn = require('../schemas/KanbanColumn');
 
 // Initialize default columns if they don't exist
 const initializeDefaultColumns = async () => {

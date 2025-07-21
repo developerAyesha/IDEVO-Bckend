@@ -1,6 +1,6 @@
-const Task = require('../models/Task');
-const TeamMember = require('../models/TeamMember');
-const KanbanColumn = require('../models/KanbanColumn');
+const Task = require('../schemas/Task');
+const TeamMember = require('../schemas/TeamMember');
+const KanbanColumn = require('../schemas/KanbanColumn');
 
 exports.getAllTasks = async (req, res) => {
   try {
